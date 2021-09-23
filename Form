@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Formulir Pendaftaran</title>
+</head>
+<body>
+ <form>
+  <table>
+   <tr>
+    <td>Nama :</td>
+    <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password"></td>
+   </tr>
+   <tr>
+    <td>Jenis Kelamin :</td>
+    <td>
+     <input type="radio" name="Gender"> Pria
+     <input type="radio" name="Gender"> Wanita
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email"></td>
+   </tr>
+   <tr>
+   <td>Alamat :</td>
+    <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
